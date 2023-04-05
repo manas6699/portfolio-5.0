@@ -1,0 +1,118 @@
+
+
+.adminPanel {
+    width: 100%;
+    min-height: 100vh;
+   
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .adminPanelContainer {
+    margin-top: 4rem;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100vh;
+    /* background-color: #f1f1f1; */
+    color: black;
+  }
+  .adminPanelContainer > h4 {
+    margin: 2vmax;
+    letter-spacing: 15px;
+    display: flex;
+    transform: translateX(-100vw);
+    animation: contactFormInputs 1s ease-in-out forwards;
+    justify-content: center;
+  }
+  .adminPanelContainer > h4 > p {
+    transition: all 0.5s;
+  }
+  .adminPanelContainer > h4 > p:hover {
+    transform: translateY(-10px);
+  }
+  
+  .adminPanelContainer > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vmax;
+    padding-top: 0;
+  }
+  
+  .adminPanelInputs {
+    width: 80%;
+    padding: 1vmax 2vmax;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font: 100 1rem "Roboto", sans-serif;
+    outline: none;
+    margin: 2vmax;
+    box-sizing: border-box;
+  }
+
+  .adminPanelFileUpload::-webkit-file-upload-button {
+    width: 80%;
+    border-radius: 30px;
+    border: none;
+    font: 100 1rem "Roboto", sans-serif;
+    cursor: pointer;
+    background-color: #7c73f8;
+    padding: 1vmax;
+    color: white;
+  }
+  
+  .adminPanelAbout > fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 2vmax 0;
+    padding-bottom: 3vmax;
+  }
+  
+  .adminPanelAbout {
+    width: 100%;
+  }
+  
+  .adminPanelContainer > form > a {
+    background-color: #fafafa;
+    padding: 2vmax;
+    font: 400 2rem "Roboto", sans-serif;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 220px;
+    margin: 2vmax;
+    transition: all 0.5s;
+  }
+
+  h1{
+    color: #ccc;
+  }
+  .adminPanelContainer > form > a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+    transform: scale(1.1);
+  }
+  .adminPanelContainer > form > button {
+    width: 80%;
+    padding: 1vmax;
+    margin: 2vmax;
+    background-color: hsl(36, 100%, 58%);
+    
+  }
+  .adminPanelContainer > form > button:hover {
+    background-color: hsl(36, 100%, 50%);
+  }
+  
+.youtubeCard{
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 80%;
+  padding: 2vmax;
+  margin: 2vmax;
+}
